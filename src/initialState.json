@@ -1,0 +1,35 @@
+{
+  "errors": [],
+  "user": {
+    "fetching": false,
+    "data": {}
+  },
+  "navigation": {
+    "leftDrawer": {
+      "open": false
+    },
+    "rightDrawer": {
+      "open": false
+    }
+  },
+  "loggedIn": false,
+  "dashboard": {
+    "minutes": 5
+  },
+  "statistics": {
+    "intents": {
+      "data": []
+    },
+    "listened": {
+      "data": []
+    },
+    "retorts": {
+      "data": []
+    }
+  },
+  "modals": {
+    "logout": {
+      "open": false
+    }
+  }
+}

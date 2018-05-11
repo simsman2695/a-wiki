@@ -1,0 +1,1 @@
+{"Intents":{"data":{"user":{"id":"mgagliardo","team":"T8F7DTJP9"},"log":{"intent":"slack.cleanchannel","query":"clean this channel","replyAll":false,"action":"slack.cleanchannel"},"ts":1520962931,"ms":1520962930868},"sensor":"sensor-17650","ts":1520962931,"ms":1520962930868}}

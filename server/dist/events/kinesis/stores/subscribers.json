@@ -1,0 +1,5 @@
+{"Retorts":{"data":{"user":{"id":"mgagliardo","team":"T8F7DTJP9"},"event":{"type":"message","channel":"D8DFG0URE","user":"U8F1FDA5U","text":"I forgot my password","ts":"1520014265.000210","source_team":"T8F7DTJP9","team":"T8F7DTJP9"},"response":["ERROR: Error: Deadline Exceeded"],"ts":1520014486},"sensor":"sensor-12934","ts":1520014486}}
+{"Listened":{"data":{"user":{"id":"mgagliardo","team":"T8F7DTJP9"},"query":"lol","channel":"D8DFG0URE","ts":1520016352},"sensor":"sensor-22844","ts":1520016352}}
+{"Listened":{"data":{"user":{"id":"mgagliardo","team":"T8F7DTJP9"},"query":"I forgot my password","channel":"D8DFG0URE","ts":1520016368},"sensor":"sensor-90634","ts":1520016368}}
+{"Listened":{"data":{"user":{"id":"mgagliardo","team":"T8F7DTJP9"},"query":"hello","channel":"D8DFG0URE","ts":1520016388},"sensor":"sensor-21045","ts":1520016388}}
+{"Listened":{"data":{"user":{"id":"mgagliardo","team":"T8F7DTJP9"},"query":"I forgot my password","channel":"D8DFG0URE","ts":1520016453},"sensor":"sensor-2261","ts":1520016453}}
