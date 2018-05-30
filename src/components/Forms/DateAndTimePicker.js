@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from '@material-ui/core/styles';
 import { DateTimePicker } from 'material-ui-pickers';
 import { Icon, Typography } from 'material-ui';
 import DateFnsUtils from 'material-ui-pickers/utils/date-fns-utils';

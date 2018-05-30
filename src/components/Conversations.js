@@ -1,11 +1,11 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import Grid from 'material-ui/Grid';
-import Typography from 'material-ui/Typography';
+import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Typography';
 import TableEnhanced from './Tables/TableEnhanced';
 import NativeSelect from './Selects/NativeSelect';
-import { withStyles } from 'material-ui/styles/index';
+import { withStyles } from '@material-ui/core/styles/index';
 
 const alasql = require('alasql');
 const dateFormat = require('dateformat');

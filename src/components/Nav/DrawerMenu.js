@@ -1,18 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Button from 'material-ui/Button';
-import Dialog, { DialogActions, DialogContent, DialogContentText, DialogTitle } from 'material-ui/Dialog';
-import Slide from 'material-ui/transitions/Slide';
-import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
-import Divider from 'material-ui/Divider';
-import ChatIcon from 'material-ui-icons/Chat';
-import PowerSettingsNew from 'material-ui-icons/PowerSettingsNew';
-import Dashboard from 'material-ui-icons/Dashboard';
-import ShowChart from 'material-ui-icons/ShowChart';
-import Collapse from 'material-ui/transitions/Collapse';
-import ExpandLess from 'material-ui-icons/ExpandLess';
-import ExpandMore from 'material-ui-icons/ExpandMore';
+import { withStyles,withTheme } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogTitle from '@material-ui/core/DialogTitle';
+import Slide from '@material-ui/core/Slide';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import Divider from '@material-ui/core/Divider';
+import ChatIcon from '@material-ui/icons/Chat';
+import PowerSettingsNew from '@material-ui/icons/PowerSettingsNew';
+import Dashboard from '@material-ui/icons/Dashboard';
+import ShowChart from '@material-ui/icons/ShowChart';
+import Collapse from '@material-ui/core/Collapse';
+import ExpandLess from '@material-ui/icons/ExpandLess';
+import ExpandMore from '@material-ui/icons/ExpandMore';
 import { Bug, Robot } from 'mdi-material-ui';
 import { withRouter } from 'react-router-dom';
 
@@ -178,4 +185,4 @@ DrawerMenu.propTypes = {
     history: PropTypes.object.isRequired
 };
 
-export default withRouter(withStyles(ToolStyles)(DrawerMenu));
+export default withRouter(withTheme()(withStyles(ToolStyles)(DrawerMenu)));

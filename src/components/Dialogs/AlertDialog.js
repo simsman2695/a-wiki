@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Button from 'material-ui/Button';
-import Dialog, { DialogActions, DialogContent, DialogContentText, DialogTitle } from 'material-ui/Dialog';
-import Slide from 'material-ui/transitions/Slide';
+import Button from '@material-ui/core/Button';
+import Dialog, { DialogActions, DialogContent, DialogContentText, DialogTitle } from '@material-ui/core/Dialog';
+import Slide from '@material-ui/core/transitions/Slide';
 
 function Transition (props) {
     return <Slide direction="up" {...props} />;

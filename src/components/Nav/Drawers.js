@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
+import { withStyles,withTheme } from '@material-ui/core/styles';
 import classNames from 'classnames';
-import Drawer from 'material-ui/Drawer';
-import Divider from 'material-ui/Divider';
-import IconButton from 'material-ui/IconButton';
-import ChevronLeftIcon from 'material-ui-icons/ChevronLeft';
+import Drawer from '@material-ui/core/Drawer';
+import Divider from '@material-ui/core/Divider';
+import IconButton from '@material-ui/core/IconButton';
+import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import DrawerMenu from '../../containers/DrawerMenu';
-import List from 'material-ui/List';
+import List from '@material-ui/core/List';
 import * as styles from '../ui/styles';
 
 const LeftNav = (props) => {
@@ -60,4 +60,4 @@ LeftNav.propTypes = {
     closeDrawerCallback: PropTypes.func
 };
 
-export const Left = withStyles(styles.LeftNavStyles, { withTheme: true })(LeftNav);
+export const Left = withTheme()(withStyles(styles.LeftNavStyles, { withTheme: true })(LeftNav));

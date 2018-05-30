@@ -10,11 +10,11 @@
   "license": "MIT",
   "scripts": {
     "start": "npm run build && npm run watch",
-    "build": "npm run build-sass && npm run build-ts && npm run tslint && npm run copy-static-assets",
+    "build": "npm run build-ts && npm run tslint && npm run copy-static-assets",
     "serve": "nodemon -L -e ts,json --exec \"node dist/server.js\"",
     "processors": "nodemon -L -e ts,json --exec \"echo processors\"",
     "listener": "nodemon -L -e ts,json,sh,properties --exec \"cd dist/events/kinesis/processors && ./init.sh \"",
-    "watch": "concurrently -k -p \"[{name}]\" -n \"Sass,TypeScript,Node,Kinesis Listener\" -c \"yellow.bold,cyan.bold,green.bold,magenta.bold,magenta.bold\" \"npm run watch-sass\" \"npm run watch-ts\" \"npm run serve\" ",
+    "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Node\" -c \"yellow.bold,cyan.bold,green.bold,magenta.bold,magenta.bold\" \"npm run watch-ts\" \"npm run serve\" ",
     "test": "jest --forceExit",
     "build-ts": "tsc",
     "watch-ts": "tsc -w",

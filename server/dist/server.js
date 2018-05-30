@@ -57,7 +57,7 @@ server.on('restifyError', (req, res, err, callback) => {
  *
  */
 server.use(jwt({ secret: process.env.SESSION_SECRET }).unless({
-    path: ['/auth', '/facial/auth', '/facial/video', '/facial/video/test', '/websocket', '/athena']
+    path: ['/auth', '/google/auth']
 }));
 /**
  * Routes

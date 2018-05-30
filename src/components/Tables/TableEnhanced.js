@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
+import { withStyles } from '@material-ui/core/styles';
 import Table, {
     TableBody,
     TableCell,
@@ -10,12 +10,12 @@ import Table, {
     TablePagination,
     TableRow,
     TableSortLabel
-} from 'material-ui/Table';
-import Toolbar from 'material-ui/Toolbar';
-import Typography from 'material-ui/Typography';
-import Paper from 'material-ui/Paper';
-import Tooltip from 'material-ui/Tooltip';
-import { lighten } from 'material-ui/styles/colorManipulator';
+} from '@material-ui/core/Table';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import Paper from '@material-ui/core/Paper';
+import Tooltip from '@material-ui/core/Tooltip';
+import { lighten } from '@material-ui/core/styles/colorManipulator';
 
 let counter = 0;
 

@@ -1,4 +1,4 @@
-import green from 'material-ui/colors/green';
+import green from '@material-ui/core/colors/green';
 
 export const drawerWidth = 240;
 export const styles = theme => ({

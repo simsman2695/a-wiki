@@ -1,14 +1,14 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import Grid from 'material-ui/Grid';
-import Button from 'material-ui/Button';
-import Typography from 'material-ui/Typography';
-import Icon from 'material-ui/Icon';
-import Hidden from 'material-ui/Hidden';
+import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
+import Icon from '@material-ui/core/Icon';
+import Hidden from '@material-ui/core/Hidden';
 import TableEnhanced from './Tables/TableEnhanced';
 import DateAndTimePicker from './Forms/DateAndTimePicker';
-import { withStyles } from 'material-ui/styles/index';
+import { withStyles } from '@material-ui/core/styles/index';
 
 const axios = require('axios');
 const dateFormat = require('dateformat');

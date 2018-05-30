@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
-import LoginForm from '../Forms/Login';
-import { withStyles } from 'material-ui/styles';
-import Paper from 'material-ui/Paper';
-import Grid from 'material-ui/Grid';
-import Icon from 'material-ui/Icon';
+import LoginForm from '../Forms/GoogleLogin';
+import { withStyles } from '@material-ui/core';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+import Icon from '@material-ui/core/Icon';
 
 const styles = theme => ({
 
@@ -80,5 +80,5 @@ Login.propTypes = {
     history: PropTypes.object.isRequired
 };
 
-export default withRouter(withStyles(styles)(Login));
+export default withRouter(withStyles(styles, { withTheme: true })(Login));
 

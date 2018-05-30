@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { withStyles } from 'material-ui/styles';
-import Avatar from 'material-ui/Avatar';
-import FolderIcon from 'material-ui-icons/Folder';
-import pink from 'material-ui/colors/pink';
-import green from 'material-ui/colors/green';
-import deepOrange from 'material-ui/colors/deepOrange';
-import deepPurple from 'material-ui/colors/deepPurple';
+import { withStyles } from '@material-ui/core/styles';
+import Avatar from '@material-ui/core/Avatar';
+import FolderIcon from '@material-ui/icons/Folder';
+import pink from '@material-ui/core/colors/pink';
+import green from '@material-ui/core/colors/green';
+import deepOrange from '@material-ui/core/colors/deepOrange';
+import deepPurple from '@material-ui/core/colors/deepPurple';
 
 const imageStyles = {
     row: {
