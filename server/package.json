@@ -67,7 +67,7 @@
     "material-ui-pickers": "^1.0.0-rc.2",
     "md5": "^2.2.1",
     "mysql2": "^1.5.3",
-    "node-fetch": "^1.7.3",
+    "node-fetch": "^2.6.7",
     "redis": "^2.8.0",
     "restify": "^6.3.4",
     "restify-jwt-community": "^1.0.0",
