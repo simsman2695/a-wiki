@@ -55,7 +55,7 @@
     "aws-sdk": "^2.188.0",
     "bcrypt-nodejs": "^0.0.3",
     "bluebird": "^3.5.1",
-    "body-parser": "^1.15.2",
+    "body-parser": "^1.20.1",
     "compression": "^1.6.2",
     "date-fns": "^2.0.0-alpha.7",
     "dotenv": "^2.0.0",
