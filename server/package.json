@@ -61,7 +61,7 @@
     "dotenv": "^2.0.0",
     "errorhandler": "^1.4.3",
     "fs-extra": "^5.0.0",
-    "jsonwebtoken": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
     "klaw-sync": "^3.0.2",
     "log4js": "^2.5.3",
     "material-ui-pickers": "^1.0.0-rc.2",
